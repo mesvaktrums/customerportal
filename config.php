@@ -29,11 +29,11 @@ class Portal_Config_Data {
 	protected static $data = array(
 		//CRM URL without trialing/
 		//Example: http://yourdomain.com/crm
-		'crm.url' => 'http://crm.meromedika.com',
+		'crm.url' => '',
 
 		//Portal URL without trialing/
 		//Example: http://yourdomain.com/portal
-		'portal.url' => 'https://portal.meromedika.com',
+		'portal.url' => 'https://test.meromedika.com',
 
 		'crm.version' => '8.0.0', // Framework version for API
 		'language' => 'en_us', // Default Language for API. Note : Changing the language here will not change the default/login language for Portal user.
