@@ -1,4 +1,4 @@
-{*+**********************************************************************************
+E-mail{*+**********************************************************************************
 * The contents of this file are subject to the vtiger CRM Public License Version 1.2
 * ("License.txt"); You may not use this file except in compliance with the License
 * The Original Code is: Vtiger CRM Open Source
@@ -19,7 +19,7 @@
                             <h4 style="text-align:center;"translate="Please provide your portal credentials">Please provide your portal credentials</h4>
                             <hr>
                             <div class="form-group">
-                                <label for="Email" translate="E-mail" class="col-sm-4 control-label">Email</label>
+                                <label for="Email" translate="E-m-ail" class="col-sm-4 control-label">Email</label>
                                 <div class="col-sm-8">
                                     {literal}<input type="text" ng-model-options="{updateOn:'blur'}" ng-pattern='/^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/' class="form-control"  ng-model="username" name="username" ng-required="true" autofill="autofill">
                                     <span class="text-danger" ng-if="loginForm.username.$error.pattern">Please enter a valid email address.</span>{/literal}
@@ -91,7 +91,7 @@
         <form name="forgotPassword"  ng-submit="updatePassword()" class="form-horizontal" role="form">
         <div class="modal-body">
         <div class="form-group">
-        <label class="col-sm-4 control-label">{{'E-mail'|translate}}</label>
+        <label class="col-sm-4 control-label">{{'E-m-ail'|translate}}</label>
         <div class="col-sm-5">
         <input ng-model="data.email" name="email" ng-pattern='/^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/' type="email" class="form-control" required></input>
         <span class="text-danger"  ng-show="data.email===undefined">Enter a valid email address</span>
